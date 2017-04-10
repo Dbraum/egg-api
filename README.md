@@ -1,6 +1,6 @@
 # example
 
-
+这个项目主要服务dva-myapp,使用egg框架，为dva-myapp提供后端服务。
 
 ## QuickStart
 
