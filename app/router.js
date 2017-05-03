@@ -6,4 +6,6 @@ module.exports = app => {
   app.post('/api/logout', 'login.logout');
   app.get('/api/dashboard', 'dashboard.index');
   app.get('/api/users', 'users.index');
+  app.get('/api/reports', 'reportHelper.index');
+  app.get('/api/reports/:id', 'reportHelper.info');
 };
